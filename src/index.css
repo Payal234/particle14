@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.page-motion {
+  will-change: transform, opacity;
+}
