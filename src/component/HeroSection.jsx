@@ -30,8 +30,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Half Horizontal Line */}
-      <div className="relative w-1/2 border-t-2 border-gray-800 mt-12 z-10"></div>
+      
     </section>
   );
 };
