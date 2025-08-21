@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gradient-to-r from-black to-blue-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 border-r border-gray-600">
+        <div className="flex items-center justify-between h-16  ">
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8 text-sm font-medium">
             <Link to="/" className="text-white hover:text-gray-300">
@@ -56,7 +56,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-gradient-to-r from-black to-blue-900 border-t border-gray-600">
+        <div className="md:hidden bg-gradient-to-r from-black to-blue-900 ">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link
               to="/"
